@@ -1,0 +1,81 @@
+,ORACLE,NUM_STAT,NUM_EXECSTAT,NUM_COND,NUM_EXECCOND,NUM_MODULO,NUM_EXECMODULO,NUM_MULT,NUM_EXECMULT,NUM_DIV,NUM_EXECDIV,NUM_INVOKE,NUM_EXECINVOKE,CLASS_STACK_SIZE,COUNT,TESTNAME,PROJECT,VERSION,FAIL
+45,Time Bug 16 - Strong Oracle,2473,35056,211,3304,7,391,8,142,6,235,296,2962,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthDay_feb29,TIME,16,True
+51,Time Bug 12 - Strong Oracle 2,1861,12812,146,1365,8,44,10,20,7,44,275,1350,0,1,org.joda.time.TestLocalDateTime_Constructors.testFactory_fromDateFields_beforeYearZero1,TIME,12,True
+116,Time Bug 24 - Strong Oracle,623,2417,57,258,1,1,2,2,4,10,90,309,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_year_month_week_2011,TIME,24,True
+171,Time Bug 26 - Strong Oracle,868,1984,81,224,2,5,5,8,7,12,97,179,0,1,org.joda.time.TestDateTimeZoneCutover.testWithHourOfDayInDstChange,TIME,26,True
+181,Time Bug 10 - Strong Oracle,578,1523,41,133,1,2,2,3,2,7,89,167,0,1,org.joda.time.TestMonths.testFactory_monthsBetween_RPartial_MonthDay,TIME,10,True
+192,Time Bug 13 - Strong Oracle 2,58,70,8,11,0,0,0,0,0,0,8,9,0,1,org.joda.time.format.TestISOPeriodFormat.testFormatStandard_negative,TIME,13,True
+193,Time Bug 13 - Strong Oracle 1,538,4237,62,729,2,2,1,3,2,2,76,311,0,4,org.joda.time.format.TestISOPeriodFormat.testFormatStandard_negative,TIME,13,True
+213,Time Bug 3 - Strong Oracle,1306,4265,106,395,5,14,7,17,7,27,148,376,0,1,org.joda.time.TestMutableDateTime_Adds.testAddMonths_int_dstOverlapWinter_addZero,TIME,3,True
+244,Time Bug 26 - Strong Oracle,1622,17346,132,1468,5,65,9,76,10,132,188,1512,0,1,org.joda.time.TestDateTimeZoneCutover.testWithSecondOfMinuteInDstChange,TIME,26,True
+273,Time Bug 26 - Strong Oracle,868,1967,81,225,2,5,5,7,7,12,97,179,0,1,org.joda.time.TestDateTimeZoneCutover.testWithMinuteOfHourInDstChange,TIME,26,True
+280,Time Bug 16 - Strong Oracle,1793,5672,157,621,5,37,7,20,6,22,204,501,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthOnly_parseEndYear,TIME,16,True
+281,Time Bug 2 - Strong Oracle,50,56,5,5,0,0,0,0,0,0,12,12,0,1,org.joda.time.TestPartial_Basics.testWith_baseAndArgHaveNoRange,TIME,2,True
+308,Time Bug 16 - Strong Oracle,2275,10365,201,1155,5,31,7,16,6,22,283,985,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthOnly_baseStartYear,TIME,16,True
+334,Time Bug 25 - Strong Oracle,709,2998,66,343,2,8,3,8,5,18,82,286,0,1,org.joda.time.TestDateTimeZoneCutover.test_getOffsetFromLocal_Moscow_Autumn,TIME,25,True
+335,Time Bug 12 - Strong Oracle 2,634,2443,46,244,0,0,3,3,3,9,90,299,0,1,org.joda.time.TestLocalDate_Constructors.testFactory_fromDateFields_beforeYearZero3,TIME,12,True
+365,Time Bug 6 - Strong Oracle,2424,6825,189,478,6,24,10,31,8,43,298,671,0,1,org.joda.time.chrono.TestGJDate.test_cutoverPreZero,TIME,6,True
+399,Time Bug 6 - Strong Oracle,304,387,21,28,1,2,2,2,3,4,39,43,0,1,org.joda.time.chrono.TestGJDate.test_plusWeekyears_positiveToZero_crossCutover,TIME,6,True
+415,Time Bug 3 - Strong Oracle,1298,4277,106,395,5,14,7,18,7,27,147,376,0,1,org.joda.time.TestMutableDateTime_Adds.testAddWeeks_int_dstOverlapWinter_addZero,TIME,3,True
+416,Time Bug 6 - Strong Oracle,361,604,27,57,3,7,0,0,3,5,53,66,0,1,org.joda.time.chrono.TestGJDate.test_plusYears_positiveToZero_crossCutover,TIME,6,True
+425,Time Bug 19 - Strong Oracle,627,1458,56,155,2,4,1,3,3,7,70,135,0,1,org.joda.time.TestDateTimeZoneCutover.testDateTimeCreation_london,TIME,19,True
+430,Time Bug 3 - Strong Oracle,1298,4277,106,395,5,14,7,18,7,27,147,376,0,1,org.joda.time.TestMutableDateTime_Adds.testAddDays_int_dstOverlapWinter_addZero,TIME,3,True
+442,Time Bug 12 - Strong Oracle 2,997,3207,87,338,2,6,3,3,3,9,136,384,0,1,org.joda.time.TestLocalDate_Constructors.testFactory_fromDateFields_beforeYearZero1,TIME,12,True
+444,Time Bug 14 - Strong Oracle,470,770,33,65,1,1,1,1,2,3,70,93,0,1,org.joda.time.TestMonthDay_Basics.testMinusDays_int_negativeFromLeap,TIME,14,True
+457,Time Bug 26 - Strong Oracle,796,3243,73,378,3,15,3,6,5,19,93,303,0,1,org.joda.time.TestDateTimeZoneCutover.testBug2182444_usCentral,TIME,26,True
+463,Time Bug 14 - Strong Oracle,1500,5032,134,500,2,3,3,5,3,11,214,568,0,1,org.joda.time.TestMonthDay_Basics.testMinusMonths_int_endOfMonthAdjust,TIME,14,True
+464,Time Bug 24 - Strong Oracle,646,2432,63,264,2,4,2,2,4,10,90,309,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_weekyear_month_week_2012,TIME,24,True
+468,Time Bug 16 - Strong Oracle,1754,5473,150,594,5,31,7,16,6,22,202,496,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthOnly_parseStartYear,TIME,16,True
+542,Time Bug 14 - Strong Oracle,470,770,33,65,1,1,1,1,2,3,70,93,0,1,org.joda.time.TestMonthDay_Basics.testPlusDays_int_fromLeap,TIME,14,True
+550,Time Bug 27 - Strong Oracle,2780,13581,249,1427,0,0,1,2,0,0,348,1679,0,1,org.joda.time.format.TestPeriodFormatterBuilder.testBug2495455,TIME,27,True
+557,Time Bug 12 - Strong Oracle 1,1134,6787,77,671,4,16,8,16,6,42,168,729,0,1,org.joda.time.TestLocalDateTime_Constructors.testFactory_fromCalendarFields_beforeYearZero3,TIME,12,True
+558,Time Bug 5 - Strong Oracle,66,73,4,5,0,0,0,0,0,0,10,10,0,1,org.joda.time.TestPeriod_Basics.testNormalizedStandard_periodType_months1,TIME,5,True
+567,Time Bug 17 - Strong Oracle 2,718,3154,73,367,3,14,3,10,5,18,78,283,0,4,org.joda.time.TestDateTimeZoneCutover.testBug3476684_adjustOffset,TIME,17,True
+569,Time Bug 21 - Strong Oracle,931,5276,66,434,4,20,6,25,8,42,110,460,0,1,org.joda.time.TestDateTimeZone.testGetShortName_berlin,TIME,21,True
+639,Time Bug 25 - Strong Oracle,681,1564,64,175,2,4,3,5,5,9,73,142,0,1,org.joda.time.TestDateTimeZoneCutover.test_DateTime_constructor_Moscow_Autumn,TIME,25,True
+649,Time Bug 22 - Strong Oracle,59,99,4,6,0,0,0,0,0,0,9,11,0,1,org.joda.time.TestDuration_Basics.testToPeriod_fixedZone,TIME,22,True
+678,Time Bug 23 - Strong Oracle,224,272,11,19,0,0,0,0,0,0,40,45,0,1,org.joda.time.TestDateTimeZone.testForID_String_old,TIME,23,True
+691,Time Bug 16 - Strong Oracle,2502,30478,215,2948,7,395,12,130,9,204,293,2558,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthOnly,TIME,16,True
+712,Time Bug 24 - Strong Oracle,623,2417,57,258,1,1,2,2,4,10,90,309,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_weekyear_month_week_2011,TIME,24,True
+763,Time Bug 24 - Strong Oracle,683,2472,66,264,2,4,3,4,4,10,92,309,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_year_month_week_2010,TIME,24,True
+802,Time Bug 14 - Strong Oracle,470,770,33,65,1,1,1,1,2,3,70,93,0,1,org.joda.time.TestMonthDay_Basics.testPlusMonths_int_fromLeap,TIME,14,True
+825,Time Bug 12 - Strong Oracle 2,1194,6907,79,675,6,18,10,20,7,44,173,738,0,1,org.joda.time.TestLocalDateTime_Constructors.testFactory_fromDateFields_beforeYearZero3,TIME,12,True
+856,Time Bug 14 - Strong Oracle,1500,5032,134,500,2,3,3,5,3,11,214,568,0,1,org.joda.time.TestMonthDay_Basics.testPlusMonths_int_negativeEndOfMonthAdjust,TIME,14,True
+879,Time Bug 10 - Strong Oracle,591,1536,41,133,1,2,2,3,2,7,92,170,0,1,org.joda.time.TestDays.testFactory_daysBetween_RPartial_MonthDay,TIME,10,True
+890,Time Bug 5 - Strong Oracle,66,107,4,9,0,0,0,0,0,0,10,12,0,1,org.joda.time.TestPeriod_Basics.testNormalizedStandard_periodType_monthsWeeks,TIME,5,True
+892,Time Bug 24 - Strong Oracle,682,2470,65,262,2,4,3,4,4,10,92,309,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_year_month_week_2016,TIME,24,True
+893,Time Bug 14 - Strong Oracle,470,770,33,65,1,1,1,1,2,3,70,93,0,1,org.joda.time.TestMonthDay_Basics.testMinusMonths_int_fromLeap,TIME,14,True
+944,Time Bug 14 - Strong Oracle,470,770,33,65,1,1,1,1,2,3,70,93,0,1,org.joda.time.TestMonthDay_Basics.testPlusMonths_int_negativeFromLeap,TIME,14,True
+957,Time Bug 16 - Strong Oracle,2470,34753,211,3195,6,269,8,146,6,235,297,2983,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthDay_withDefaultYear_feb29,TIME,16,True
+966,Time Bug 7 - Strong Oracle,1030,2222,79,227,1,2,3,4,4,6,130,229,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthDay_feb29_newYork_startOfYear,TIME,7,True
+991,Time Bug 20 - Strong Oracle 1,501,8079,33,388,0,0,3,208,0,0,76,777,0,1,org.joda.time.format.TestDateTimeFormatterBuilder.test_printParseZoneDawsonCreek,TIME,20,True
+995,Time Bug 24 - Strong Oracle,646,2432,63,264,2,4,2,2,4,10,90,309,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_year_month_week_2012,TIME,24,True
+1006,Time Bug 3 - Strong Oracle,1308,4265,107,395,5,14,7,17,7,27,148,376,0,1,org.joda.time.TestMutableDateTime_Adds.testAddYears_int_dstOverlapWinter_addZero,TIME,3,True
+1021,Time Bug 18 - Strong Oracle,215,259,10,22,2,2,0,0,0,0,46,46,0,1,org.joda.time.chrono.TestGJChronology.testLeapYearRulesConstruction,TIME,18,True
+1049,Time Bug 24 - Strong Oracle,740,2536,68,268,2,5,5,6,5,11,96,313,0,1,org.joda.time.format.TestDateTimeFormatter.testParseLocalDate_weekyear_month_week_2010,TIME,24,True
+1063,Time Bug 12 - Strong Oracle 1,590,2382,50,249,2,6,1,1,2,8,84,293,0,1,org.joda.time.TestLocalDate_Constructors.testFactory_fromCalendarFields_beforeYearZero1,TIME,12,True
+1103,Time Bug 26 - Strong Oracle,791,3251,73,379,3,15,3,6,5,19,93,306,0,3,org.joda.time.TestDateTimeZoneCutover.testBug2182444_ausNSW,TIME,26,True
+1121,Time Bug 26 - Strong Oracle,705,1572,62,167,2,5,3,6,5,10,86,153,0,1,org.joda.time.TestDateTimeZoneCutover.testWithMinuteOfHourInDstChange_mockZone,TIME,26,True
+1149,Time Bug 15 - Strong Oracle,5,5,0,0,0,0,0,0,0,0,1,1,0,1,org.joda.time.field.TestFieldUtils.testSafeMultiplyLongInt,TIME,15,True
+1171,Time Bug 7 - Strong Oracle,1043,2207,85,228,2,3,3,4,4,6,131,229,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthDay_feb29_tokyo_endOfYear,TIME,7,True
+1180,Time Bug 16 - Strong Oracle,1788,5581,159,612,5,36,7,18,6,22,205,499,0,1,org.joda.time.format.TestDateTimeFormatter.testParseInto_monthOnly_baseEndYear,TIME,16,True
+1203,Time Bug 26 - Strong Oracle,763,1790,68,190,2,5,3,6,5,10,89,164,0,1,org.joda.time.TestDateTimeZoneCutover.testWithMillisOfSecondInDstChange_Paris_summer,TIME,26,True
+1224,Time Bug 12 - Strong Oracle 1,1161,6851,84,708,6,42,8,16,6,42,167,728,0,1,org.joda.time.TestLocalDateTime_Constructors.testFactory_fromCalendarFields_beforeYearZero1,TIME,12,True
+1261,Time Bug 5 - Strong Oracle,66,73,4,5,0,0,0,0,0,0,10,10,0,1,org.joda.time.TestPeriod_Basics.testNormalizedStandard_periodType_months2,TIME,5,True
+1268,Time Bug 26 - Strong Oracle,763,1746,68,191,2,5,3,4,5,10,88,161,0,1,org.joda.time.TestDateTimeZoneCutover.testWithMillisOfSecondInDstChange_NewYork_winter,TIME,26,True
+1340,Time Bug 22 - Strong Oracle,69,112,6,8,0,0,0,0,0,0,9,11,0,1,org.joda.time.TestPeriod_Constructors.testConstructor_long_fixedZone,TIME,22,True
+1344,Time Bug 25 - Strong Oracle,709,2998,66,343,2,8,3,8,5,18,82,286,0,1,org.joda.time.TestDateTimeZoneCutover.test_getOffsetFromLocal_Moscow_Autumn_overlap_mins,TIME,25,True
+1375,Time Bug 4 - Strong Oracle,176,477,9,32,0,0,0,0,0,0,27,68,0,1,org.joda.time.TestPartial_Basics.testWith3,TIME,4,True
+1377,Time Bug 12 - Strong Oracle 1,577,2384,44,242,0,0,1,1,2,8,85,294,0,1,org.joda.time.TestLocalDate_Constructors.testFactory_fromCalendarFields_beforeYearZero3,TIME,12,True
+1384,Time Bug 3 - Strong Oracle,1318,4279,107,396,5,14,7,17,7,27,150,378,0,1,org.joda.time.TestMutableDateTime_Adds.testAdd_DurationFieldType_int_dstOverlapWinter_addZero,TIME,3,True
+1403,Time Bug 6 - Strong Oracle,3178,55131,218,5943,5,27,9,32,8,50,763,5994,0,1,org.joda.time.chrono.TestGJDate.test_plusWeekyears_positiveToNegative_crossCutover,TIME,6,True
+1451,Time Bug 6 - Strong Oracle,797,3117,67,305,2,3,2,3,3,13,112,360,0,1,org.joda.time.chrono.TestGJDate.test_plusYears_positiveToNegative_crossCutover,TIME,6,True
+1464,Time Bug 11 - Strong Oracle,6,6,0,0,0,0,0,0,0,0,3,3,0,2,org.joda.time.tz.TestCompiler.testDateTimeZoneBuilder,TIME,11,True
+1470,Time Bug 9 - Strong Oracle,732,3377,81,421,0,0,7,43,2,16,81,332,0,2,org.joda.time.TestDateTimeZone.testForOffsetHoursMinutes_int_int,TIME,9,True
+1471,Time Bug 9 - Strong Oracle,248,274,26,31,0,0,5,6,2,2,26,26,0,1,org.joda.time.TestDateTimeZone.testForOffsetHoursMinutes_int_int,TIME,9,True
+1472,Time Bug 9 - Strong Oracle,168,177,15,18,0,0,3,3,2,2,19,19,0,1,org.joda.time.TestDateTimeZone.testForOffsetHoursMinutes_int_int,TIME,9,True
+1485,Time Bug 1 - Strong Oracle,254,573,19,47,0,0,0,0,0,0,39,85,0,1,org.joda.time.TestPartial_Constructors.testConstructorEx7_TypeArray_intArray,TIME,1,True
+1486,Time Bug 1 - Strong Oracle,178,473,14,37,0,0,0,0,0,0,25,70,0,1,org.joda.time.TestPartial_Constructors.testConstructorEx7_TypeArray_intArray,TIME,1,True
+1514,Time Bug 8 - Strong Oracle,16,16,1,1,0,0,0,0,0,0,6,6,0,2,org.joda.time.TestDateTimeZone.testForOffsetHoursMinutes_int_int,TIME,8,True
+1519,Time Bug 21 - Strong Oracle,935,5280,66,434,4,20,6,25,8,42,111,461,0,1,org.joda.time.TestDateTimeZone.testGetName_berlin,TIME,21,True
+1530,Time Bug 14 - Strong Oracle,470,770,33,65,1,1,1,1,2,3,70,93,0,1,org.joda.time.TestMonthDay_Basics.testMinusMonths_int_negativeFromLeap,TIME,14,True
