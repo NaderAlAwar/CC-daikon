@@ -16,9 +16,9 @@ fi
 
 for number in $(seq 1 $VERSIONS)
 do
-	eval "mkdir ~/Projects/499/$PROJECT/v$number"
-	eval "cd ~/Projects/499/$PROJECT/v$number"
-	eval "defects4j checkout -p $PROJECT -v ${number}b -w ."
-	eval "defects4j compile"
-	eval "defects4j test"
+	mkdir ~/Projects/499/$PROJECT/v$number
+	cd ~/Projects/499/$PROJECT/v$number
+	defects4j checkout -p $PROJECT -v ${number}b -w .
+	defects4j compile
+	defects4j test
 done
