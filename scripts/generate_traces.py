@@ -12,9 +12,9 @@ def generateTraces(project, version, attribute):
 	# version is an integer
 	# attribute is pass, strong or weak
 
-	with open("/home/nader/Projects/499/" + project + "/v" + str(version) + "/" + attribute + ".txt") as file: # read all the tests
+	with open("~/Projects/499/" + project + "/v" + str(version) + "/" + attribute + ".txt") as file: # read all the tests
 		passingTests = file.read().splitlines()
 	for test in passingTests:
-		subprocess.call(['./' + project + '/chicory.sh', test, '/home/nader/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/dynComp/' + test + '.decls-DynComp', str(version),'/home/nader/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/traces'])
+		subprocess.call(['./' + project + '/chicory.sh', test, '~/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/dynComp/' + test + '.decls-DynComp', str(version),'~/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/traces'])
 
 generateTraces(project, version, attribute)
