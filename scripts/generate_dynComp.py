@@ -12,10 +12,10 @@ def generateDynComp(project, version, attribute):
 	# version is an integer
 	# attribute is pass, strong or weak
 	
-	with open("~/Projects/499/" + project + "/v" + str(version) + "/" + attribute + ".txt") as file: # read all the tests
+	with open("/home/user/Projects/499/" + project + "/v" + str(version) + "/" + attribute + ".txt") as file: # read all the tests
 		passingTests = file.read().splitlines()
 	for test in passingTests:
-		subprocess.call(['./' + project + '/dynComp.sh', test, test, str(version), '~/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/dynComp/'])
+		subprocess.call(['/home/user/Projects/499/' + project + '/dynComp.sh', test, test, str(version), '/home/user/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/dynComp/'])
 		# print(['./' + project + '/dynComp.sh', test, test, str(version), '/home/nader/Projects/499/' + project + '/v' + str(version) + '/' + attribute + '/dynComp/'])
 
 generateDynComp(project, version, attribute)
